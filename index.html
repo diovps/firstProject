@@ -1,22 +1,73 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>First Project</title>
 		<link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
 		<link rel="stylesheet" href="style.css">
+		<meta http-equiv="Content-Type" 
+		      content="text/html; charset=utf-8">
+		<script 
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js">
+		</script>	
+    		<script 
+	src="http://twitter.github.com/bootstrap/1.4.0/bootstrap-modal.js">
+		</script>
+		<script src="scripts/myScripts.js"></script>
 	</head>
+		
 
 	<body>
-		<div class="container">
+		      <div id="contact" class="modal hide fade">
+                         <div class="modal-header">
+                             <a href="#" class="close">&times;</a>
+                             <h3 id="name_header">Contact</h3>
+                         </div>
+
+                         <div class="modal-body">
+                             <p>Mailing Address: PO BOX 23445<br />
+				E-mail: Obviously_fake23@dontemail.com<br />
+				Holographic Image Address: Alderan</p>
+                         </div>
+                         <div class="modal-footer">
+                             <a href="#" id="contact-btn" class="btn primary">Ok</a>
+                         </div>
+		   </div>
+
+		
+		   <div id="about" class="modal hide fade">
+                         <div class="modal-header">
+                             <a href="#" class="close">&times;</a>
+                             <h3 id="name_header">About</h3>
+                         </div>
+
+                         <div class="modal-body">
+                             <p>Head Developer/Dear Leader: Nathan Harris<br />
+                                Located in: Tuscon Arizona<br />
+                                Just a site about some stuff</p>
+                         </div>
+                         <div class="modal-footer">
+                             <a href="#" id="about-btn" class="btn primary">Ok</a>
+                         </div>
+                   </div>
+
+		   <div class="container">
 			<div class="row">
 				<div class="span1">
-					<h1 id="logo">Logo</h1>
+					<h1 id="logo">Abstraction</h1>
 				</div>
 				<div class="span6 offset9">
 				  <ul class="pills">
 				    <li class="active"><a href="">Home</a></li>
 				    <li><a href="">Products</a></li>
-				    <li><a href="">About</a></li>
-				    <li><a href="">Contact</a></li>
+				    <li data-controls-modal="about"
+					data-backdrop="true"
+					data-keyboard="true">
+					<a href="">About</a></li>
+				    <li data-controls-modal="contact" 
+					data-backdrop="true"
+					data-keyboard="true">
+					<a href="">Contact</a></li>
+			
 				  </ul>
 				</div>
 			</div>
@@ -25,11 +76,11 @@
 		<div class="container">
 			<div class="row">
 			    <div id="main-content">
-			        <div class="span3">
-				</div>
 			    </div>
 			</div>
 		</div> 	
 		
         </body>
 </html>
+
+
