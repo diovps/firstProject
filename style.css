@@ -8,3 +8,14 @@
 #logo {
     color: blue;
 }
+
+#input-box {
+    position: absolute;
+    bottom: 30%;
+    border: 1px solid blue;
+    width: 65%;
+    padding: 15px;
+    margin: 15px;
+    -moz-border-radius: 15px;
+
+}
