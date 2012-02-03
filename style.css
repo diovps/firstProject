@@ -1,6 +1,11 @@
+h3 {
+    color: #669999;
+}
+
 #main-content {
     border: 1px solid blue;
     -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
     min-height: 500px;
     box-shadow: rgba(0,0,0,0.4) 10px 10px 10px 10px;
 }
@@ -9,13 +14,18 @@
     color: blue;
 }
 
+#abstraction-intro {
+    height: 100px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+
 #input-box {
     position: absolute;
-    bottom: 30%;
-    border: 1px solid blue;
-    width: 65%;
-    padding: 15px;
-    margin: 15px;
+    width: 67%;
+    padding: 15px;  
+    bottom: 8em;
     -moz-border-radius: 15px;
-
+    -webkit-border-radius: 15px;
 }
+
