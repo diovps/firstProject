@@ -2,19 +2,25 @@ h3 {
     color: #669999;
 }
 
+#introduction {
+    font-size: 6em;
+    text-align: center;
+    margin-top: 60px;
+}
+
 #picture-container {
     margin-top: 20px;
     margin-left: 15px;   
 }
 .picture-display {
-    border: 1px solid blue;
+    border: 1px solid #669999;
     width: 300px;
     height: 400px;
     float: left;
 }
 
 #main-content {
-    border: 1px solid blue;
+    border: 1px solid #669999;
     -moz-border-radius: 15px;
     -webkit-border-radius: 15px;
     min-height: 500px;
