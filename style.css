@@ -28,7 +28,7 @@ h3 {
 }
 
 #logo {
-    color: blue;
+    color: #669999;
 }
 
 #abstraction-intro {
@@ -46,3 +46,50 @@ h3 {
     -webkit-border-radius: 15px;
 }
 
+#pills2 li {
+    float: left;
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.15em;
+    margin-top: 7px;
+    margin-left: 3px;
+    margin-right: 3px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+}
+
+#pills2 a:link {
+   text-decoration: none;
+   color: #669999;
+}
+
+#pills2 a:visited {
+   text-decoration: none;
+   color: #669999;
+}
+
+#pills2 li:hover {
+   background-color: #669999;
+}
+
+#pills2 li:hover a {
+   color: white;
+}
+
+#pills2 .active {
+   -moz-border-radius: 25px;
+   -webkit-border-radius: 25px;
+   color: white;
+   background-color: #003333;
+}
+
+#pills2 .active a {
+   color: white;
+}
+
+#pills2 .active:hover {
+    background-color: #003333;
+} 
